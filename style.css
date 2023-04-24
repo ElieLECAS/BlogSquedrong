@@ -1,0 +1,49 @@
+* {
+    font-family: '', sans-serif;
+}
+
+
+/* Navbar */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 20px;
+}
+
+nav {
+    padding-right: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.active {
+    color: blue;
+    font-weight: 700;
+
+}
+
+
+
+/* Page 1 */
+
+
+/* Page 2 */
+
+
+
+/* Page 3 */
+
+
+
+/* Page 4 */
