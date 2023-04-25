@@ -32,6 +32,15 @@ header {
 
 nav {
     width: 12em;
+    width: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 20px;
+}
+
+nav {
+    padding-right: 20px;
+    width: 25%;
     display: flex;
     justify-content: space-around;
 
