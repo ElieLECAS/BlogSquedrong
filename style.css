@@ -1,0 +1,82 @@
+* {
+    font-family: '', sans-serif;
+}
+
+
+/* Navbar */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 20px;
+}
+
+nav {
+    padding-right: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.active {
+    color: blue;
+    font-weight: 700;
+
+}
+
+
+
+/* Page 1 */
+
+
+/* Page 2 */
+
+
+
+/* Page 3 - à propos*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px;
+    margin-left: 271px;
+}
+
+.apropos{
+    width: 60%;
+
+}
+.apropos h2{
+    color: rgb(197, 34, 110);
+}
+
+.loremapropos{
+    color: rgb(80, 80, 80);
+    font-family: sans-serif;
+}
+
+.socialmedia{
+    display: block;
+    justify-content: flex-start;
+    justify-content: space-around;  
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+/* Page 4 - illustration*/
+
+.illustration img{
+    padding-left: 20px;
+    width: 50%; 
+
+}
