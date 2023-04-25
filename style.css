@@ -209,14 +209,15 @@ p {
 
 h2 {
     display: block;
-    
     color: rgb(0, 0, 88);
+    font-size: 20px;
 }
 
 h3 {
     display: block;
     width: 20%;
     color: rgb(1, 1, 172);
+    font-size: 15px;
 
 }
 
@@ -224,6 +225,8 @@ h3 {
 
 .textarticle {
     text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
  }
  .imagepost{
     width: 100%;
