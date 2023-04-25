@@ -39,6 +39,32 @@ nav a {
 
 
 /* Page 2 */
+img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+h1 {
+    display: block;
+    width: 30%;
+    margin:auto;
+}
+p {
+    display: block;
+    width: 50%;
+    margin: auto;
+    
+}
+h2{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+h3{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
 
 
 
