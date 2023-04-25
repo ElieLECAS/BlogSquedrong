@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;500&family=Oswald:wght@200&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Accueil</title>
 </head>
 
+
 <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a class="logo" href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
         <nav>
             <a class="active" href="index.html">BLOG</a>
             <a href="pages/article.html">CV</a>
@@ -25,6 +30,107 @@
             <a href="pages/contact.html">CONTACT</a>
         </nav>
     </header>
+
+
+    <!--  En-tête  -->
+
+    <figure class="enTete">
+        <figcaption class="Welcome">
+            <h1>Bienvenue sur le blog !</h1>
+            <p class="sousTitre">Lorem ipsum</p>
+            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis
+                vestibulum nisi, at viverra arcu interdum id. In neque lorem, vehicula
+                ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna
+                et tempor. Sed nec ligula ipsum.</p>
+            <div class="socialNetwork">
+                <a class="twitter" href="https://twitter.com/"><img src="images/twitter.png" alt=""> TWITTER</a>
+                <a class="linkedin" href="https://fr.linkedin.com/"><img src="images/linkedin.png" alt=""> LINKEDIN</a>
+                <a class="medium" href="https://medium.com/"><img src="images/medium.png" alt=""> MEDIUM</a>
+            </div>
+
+        </figcaption>
+
+        <img src="images/illustration.png" alt="illustration">
+    </figure>
+
+    <!--  Articles  -->
+
+    <div class="gridArticles">
+        <div class="articleMiniature">
+            <a class="imageArticle" href="#"><img src="images/Image1.jpg" alt="Image 1"></a>
+            <div class="articleCaption">
+                <p class="date">13 JAN 2022</p>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p class="descriptionArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    ultricies
+                    mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at
+                    viverra arcu interdum id.</p>
+                <a class="enSavoirPlus" href="#"><span>EN SAVOIR P</span>LUS</a>
+            </div>
+        </div>
+        <div class="articleMiniature">
+            <a class="imageArticle" href="#"><img src="images/Image2.jpg" alt="Image 1"></a>
+            <div class="articleCaption">
+                <p class="date">13 JAN 2022</p>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p class="descriptionArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    ultricies
+                    mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at
+                    viverra arcu interdum id.</p>
+                <a class="enSavoirPlus" href="#"><span>EN SAVOIR P</span>LUS</a>
+            </div>
+        </div>
+        <div class="articleMiniature">
+            <a class="imageArticle" href="#"><img src="images/Image1.jpg" alt="Image 1"></a>
+            <div class="articleCaption">
+                <p class="date">13 JAN 2022</p>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p class="descriptionArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    ultricies
+                    mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at
+                    viverra arcu interdum id.</p>
+                <a class="enSavoirPlus" href="#"><span>EN SAVOIR P</span>LUS</a>
+            </div>
+        </div>
+        <div class="articleMiniature">
+            <a class="imageArticle" href="#"><img src="images/Image2.jpg" alt="Image 1"></a>
+            <div class="articleCaption">
+                <p class="date">13 JAN 2022</p>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p class="descriptionArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    ultricies
+                    mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at
+                    viverra arcu interdum id.</p>
+                <a class="enSavoirPlus" href="#"><span>EN SAVOIR P</span>LUS</a>
+            </div>
+        </div>
+        <div class="articleMiniature">
+            <a class="imageArticle" href="#"><img src="images/Image1.jpg" alt="Image 1"></a>
+            <div class="articleCaption">
+                <p class="date">13 JAN 2022</p>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p class="descriptionArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    ultricies
+                    mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at
+                    viverra arcu interdum id.</p>
+                <a class="enSavoirPlus" href="#"><span>EN SAVOIR P</span>LUS</a>
+            </div>
+        </div>
+        <div class="articleMiniature">
+            <a class="imageArticle" href="#"><img src="images/Image2.jpg" alt="Image 1"></a>
+            <div class="articleCaption">
+                <p class="date">13 JAN 2022</p>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p class="descriptionArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    ultricies
+                    mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at
+                    viverra arcu interdum id.</p>
+                <a class="enSavoirPlus" href="#"><span>EN SAVOIR P</span>LUS</a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
