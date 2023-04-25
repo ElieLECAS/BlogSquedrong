@@ -6,18 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;500&family=Oswald:wght@200&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <title>Contact</title>
 </head>
 
 <body>
     <header>
-        <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+        <a href="../index.html"><img id="logo" src="../images/logo.png" alt="logo"></a>
         <nav>
             <a href="../index.html">BLOG</a>
             <a href="article.html">CV</a>
@@ -31,18 +33,18 @@
 <body>
   <h1 div="contactemoi">Contacte moi!</h1>
   <form action="/envoyer" method="post">
+    <fieldset>
     <label for="nom">Nom:</label>
     <input type="text" id="nom" name="nom" required>
-    <br>
     <label for="prénom">Prénom:</label>
     <input type="text" id="prénom" name="nom" required>
-    <br>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
-    <br>
+    <p>
     <label for="message">Message :</label>
     <textarea id="message" name="message" required></textarea>
-    <br>
+    </p>
+</fieldset div="fieldset">
     <button type="submit">Envoyer</button>
   </form>
 </body>
