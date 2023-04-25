@@ -103,7 +103,7 @@ p.intro {
 .socialNetwork {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 10px;
 }
 
@@ -215,7 +215,6 @@ h2 {
 
 h3 {
     display: block;
-    width: 20%;
     color: rgb(1, 1, 172);
     font-size: 15px;
 
