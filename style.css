@@ -206,21 +206,23 @@ p {
     margin: auto;
     
 }*/
- h2{
-     display: block;
-    width: 20%;
-    color: rgb(1, 1, 172);
+
+h2 {
+    display: block;
+    
+    color: rgb(0, 0, 88);
 }
-h3{
+
+h3 {
     display: block;
     width: 20%;
     color: rgb(1, 1, 172);
 
-} 
+}
 
 
- 
- .textarticle {
+
+.textarticle {
     text-align: justify;
  }
  .imagepost{
