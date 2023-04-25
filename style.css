@@ -278,3 +278,7 @@ footer {
 .contactemoi h1 {
     font-family: 'Abril Fatface', cursive;
 }
+
+fieldset{
+    background-color: rgb(247, 208, 215);
+}
