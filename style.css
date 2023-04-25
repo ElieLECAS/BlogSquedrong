@@ -190,7 +190,7 @@ a.enSavoirPlus span {
 }
 
 /* Page 2 */
-img {
+/* img {
     display: block;
     width: 50%;
     margin: auto;
@@ -205,18 +205,24 @@ p {
     width: 50%;
     margin: auto;
     
-}
-h2{
-    display: block;
+}*/
+ h2{
+     display: block;
     width: 20%;
-    margin: auto;
+    color: rgb(1, 1, 172);
 }
 h3{
     display: block;
     width: 20%;
-    margin: auto;
-}
+    color: rgb(1, 1, 172);
 
+} 
+
+
+ 
+ .textarticle {
+    text-align: justify;
+ }
 
 
 
