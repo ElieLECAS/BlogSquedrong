@@ -132,7 +132,7 @@ p.textapropos {
     font-size: .4em;
     padding: 10px 30px 10px;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -279,4 +279,25 @@ h3 {
 fieldset {
     background-color: rgb(247, 208, 215);
     border-radius: 30px;
+    padding: 50px 20px 20px;
+    justify-content: center;
+}
+
+fieldset input {
+    border-radius: 30px;
+    left: 50px;
+}
+
+fieldset textarea,
+fieldset select {
+    border-radius: 5px;
+}
+
+
+
+input.boutonEnvoyer {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 100px;
+    background-color: rgb(247, 208, 215);
 }
