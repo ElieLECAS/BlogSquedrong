@@ -47,7 +47,6 @@ nav a:hover {
 }
 
 .active {
-    color: blue;
     font-weight: 700;
 
 }
@@ -83,7 +82,7 @@ p.intro {
     margin-bottom: 10vh;
     column-gap: 10vw;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 
@@ -92,8 +91,6 @@ p.intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1fr;
-    height: 1fr;
 }
 
 
@@ -207,15 +204,19 @@ p {
 
 h2 {
     display: block;
-    color: rgb(0, 0, 88);
     font-size: 20px;
 }
 
 h3 {
     display: block;
-    color: rgb(1, 1, 172);
     font-size: 15px;
 
+}
+
+.active,
+h2,
+h3 {
+    color: rgb(0, 0, 88);
 }
 
 
