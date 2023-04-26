@@ -27,12 +27,14 @@ header {
 
 #logo {
     height: 75px;
+
 }
 
 nav {
     width: 12em;
     display: flex;
     justify-content: space-around;
+
 }
 
 nav a {
@@ -47,6 +49,7 @@ nav a:hover {
 }
 
 .active {
+    color: blue;
     font-weight: 700;
 
 }
@@ -58,7 +61,7 @@ h1 {
     font-size: 1.5em;
 }
 
-/*  Page 1  */
+/* Page 1 */
 
 /* En-tête */
 
@@ -82,7 +85,7 @@ p.intro {
     margin-bottom: 10vh;
     column-gap: 10vw;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 
@@ -91,6 +94,8 @@ p.intro {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1fr;
+    height: 1fr;
 }
 
 
@@ -204,19 +209,15 @@ p {
 
 h2 {
     display: block;
+    color: rgb(0, 0, 88);
     font-size: 20px;
 }
 
 h3 {
     display: block;
+    color: rgb(1, 1, 172);
     font-size: 15px;
 
-}
-
-.active,
-h2,
-h3 {
-    color: rgb(0, 0, 88);
 }
 
 
@@ -233,21 +234,6 @@ h3 {
 
 
 /* Page 3 - à propos*/
-
-.enTete2 {
-    margin: 0px;
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 10vh;
-    column-gap: 10vw;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.enTete2 img {
-    width: 500px;
-}
-
 footer {
     display: flex;
     flex-direction: row;
@@ -283,7 +269,6 @@ footer {
 
 .illustration img {
     width: 100%;
-
 }
 
 
@@ -293,6 +278,7 @@ footer {
     font-family: 'Abril Fatface', cursive;
 }
 
-fieldset {
+fieldset{
     background-color: rgb(247, 208, 215);
+    border-radius: 30px;
 }
