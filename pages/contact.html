@@ -32,7 +32,7 @@
 
   <div class="formulaire">
     <h1 class="contactemoi">Contacte moi!</h1>
-    <form action="/envoyer" method="post">
+    <form method="get" action="">
       <fieldset>
         <label for="nom">Nom:</label>
         <input type="text" id="nom" name="nom" required>
@@ -45,11 +45,9 @@
           <textarea id="message" name="message" required></textarea>
         </p>
       </fieldset>
-      <button type="submit">Envoyer</button>
+      <input type="submit" value="Envoyer">
     </form>
   </div>
-
-
 
 </body>
 
