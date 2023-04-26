@@ -75,16 +75,21 @@ h1,
     line-height: 0px;
 }
 
+p.intro {
+    color: rgba(0, 0, 0, 0.526);
+}
+
 p.intro,
 p.textapropos {
     padding-top: 10px;
-    color: rgba(0, 0, 0, 0.526);
     font-size: 10px;
     font-weight: 400;
 }
 
 p.textapropos {
     text-align: justify;
+    color: black;
+    line-height: 15px;
 }
 
 .enTete {
@@ -273,7 +278,7 @@ h3 {
 /* Page 4 - Contact */
 
 
-fieldset{
+fieldset {
     background-color: rgb(247, 208, 215);
     border-radius: 30px;
 }
