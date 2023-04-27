@@ -55,10 +55,14 @@ nav a:hover {
 }
 
 h1 {
-    color: rgb(212, 63, 98);
     font-family: 'Abril Fatface', cursive;
     font-weight: 500;
     font-size: 1.5em;
+}
+
+h1,
+.apropos h2 {
+    color: rgb(212, 63, 98);
 }
 
 /*  Page 1  */
@@ -72,10 +76,20 @@ h1 {
 }
 
 p.intro {
-    padding-top: 10px;
     color: rgba(0, 0, 0, 0.526);
+}
+
+p.intro,
+p.textapropos {
+    padding-top: 10px;
     font-size: 10px;
     font-weight: 400;
+}
+
+p.textapropos {
+    text-align: justify;
+    color: black;
+    line-height: 15px;
 }
 
 .enTete {
@@ -94,8 +108,6 @@ p.intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1fr;
-    height: 1fr;
 }
 
 
@@ -120,7 +132,7 @@ p.intro {
     font-size: .4em;
     padding: 10px 30px 10px;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -149,7 +161,7 @@ a.medium {
     width: 20vw;
 }
 
-/* Articles */
+/* Grid Articles */
 
 .gridArticles {
     display: grid;
@@ -170,6 +182,10 @@ a.imageArticle img {
 
 h4 {
     font-size: 1em;
+}
+
+a.enSavoirPlus,
+h4 {
     color: rgb(212, 63, 98);
 }
 
@@ -180,7 +196,6 @@ h4 {
 }
 
 a.enSavoirPlus {
-    color: rgb(212, 63, 98);
     text-decoration: none;
     font-size: 10px;
 }
@@ -189,33 +204,14 @@ a.enSavoirPlus span {
     text-decoration: underline;
 }
 
-/* Page 2 */
-/* img {
-    display: block;
-    width: 50%;
-    margin: auto;
-}
-h1 {
-    display: block;
-    width: 30%;
-    margin:auto;
-}
-p {
-    display: block;
-    width: 50%;
-    margin: auto;
-    
-}*/
+/* Article */
+
 
 h2 {
-    display: block;
-    color: rgb(0, 0, 88);
     font-size: 20px;
 }
 
 h3 {
-    display: block;
-    color: rgb(1, 1, 172);
     font-size: 15px;
 
 }
@@ -233,24 +229,31 @@ h3 {
 }
 
 
-/* Page 3 - à propos*/
-footer {
+/* Page 3 - A propos */
+
+.enTete2 {
+    margin: 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 40px 100px;
-    margin-left: 271px; */
+    flex-flow: row wrap;
+    margin-bottom: 10vh;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.enTete2 img {
+    width: 500px;
 }
 
 .apropos {
     width: 100%;
+    padding: 30px;
+    border: 1px solid rgb(212, 63, 98);
+    border-radius: 30px;
 
 }
 
-.apropos h2 {
-    color: rgb(197, 34, 110);
-}
 
 .loremapropos {
     color: rgb(80, 80, 80);
@@ -265,20 +268,36 @@ footer {
     margin-right: 20px;
 }
 
-/* Page 4 - illustration*/
-
 .illustration img {
     width: 100%;
+}
 
+
+/* Page 4 - Contact */
+
+
+fieldset {
+    background-color: rgb(247, 208, 215);
+    border-radius: 30px;
+    padding: 50px 20px 20px;
+    justify-content: center;
+}
+
+fieldset input {
+    border-radius: 30px;
+    left: 50px;
+}
+
+fieldset textarea,
+fieldset select {
+    border-radius: 5px;
 }
 
 
 
-/* Page 5 - Contact */
-.contactemoi h1 {
-    font-family: 'Abril Fatface', cursive;
-}
-
-fieldset{
+input.boutonEnvoyer {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 100px;
     background-color: rgb(247, 208, 215);
 }
