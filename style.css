@@ -75,16 +75,21 @@ h1,
     line-height: 0px;
 }
 
+p.intro {
+    color: rgba(0, 0, 0, 0.526);
+}
+
 p.intro,
 p.textapropos {
     padding-top: 10px;
-    color: rgba(0, 0, 0, 0.526);
     font-size: 10px;
     font-weight: 400;
 }
 
 p.textapropos {
     text-align: justify;
+    color: black;
+    line-height: 15px;
 }
 
 .enTete {
@@ -103,8 +108,6 @@ p.textapropos {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1fr;
-    height: 1fr;
 }
 
 
@@ -129,7 +132,7 @@ p.textapropos {
     font-size: .4em;
     padding: 10px 30px 10px;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -273,7 +276,28 @@ h3 {
 /* Page 4 - Contact */
 
 
-fieldset{
+fieldset {
     background-color: rgb(247, 208, 215);
     border-radius: 30px;
+    padding: 50px 20px 20px;
+    justify-content: center;
+}
+
+fieldset input {
+    border-radius: 30px;
+    left: 50px;
+}
+
+fieldset textarea,
+fieldset select {
+    border-radius: 5px;
+}
+
+
+
+input.boutonEnvoyer {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 100px;
+    background-color: rgb(247, 208, 215);
 }
