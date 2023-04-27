@@ -60,16 +60,12 @@ h1 {
     font-size: 1.5em;
 }
 
-<<<<<<< HEAD
-/* Page 1 */
-=======
 h1,
 .apropos h2 {
     color: rgb(212, 63, 98);
 }
 
 /*  Page 1  */
->>>>>>> cf79f5ef463b98bfe084c0e56e4e8dcfffe62a81
 
 /* En-tête */
 
@@ -209,20 +205,10 @@ a.enSavoirPlus span {
 
 
 h2 {
-<<<<<<< HEAD
-    display: block;
-    color: rgb(0, 0, 88);
-=======
->>>>>>> cf79f5ef463b98bfe084c0e56e4e8dcfffe62a81
     font-size: 20px;
 }
 
 h3 {
-<<<<<<< HEAD
-    display: block;
-    color: rgb(1, 1, 172);
-=======
->>>>>>> cf79f5ef463b98bfe084c0e56e4e8dcfffe62a81
     font-size: 15px;
 
 }
@@ -240,16 +226,6 @@ h3 {
 }
 
 
-<<<<<<< HEAD
-/* Page 3 - à propos*/
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 40px 100px;
-    margin-left: 271px; */
-=======
 /* Page 3 - A propos */
 
 .enTete2 {
@@ -265,7 +241,6 @@ footer {
 
 .enTete2 img {
     width: 500px;
->>>>>>> cf79f5ef463b98bfe084c0e56e4e8dcfffe62a81
 }
 
 .apropos {
